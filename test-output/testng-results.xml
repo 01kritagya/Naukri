@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-03T10:32:11 IST" name="Default suite" finished-at="2026-03-03T10:32:59 IST" duration-ms="47974">
+    <groups>
+    </groups>
+    <test started-at="2026-03-03T10:32:11 IST" name="Default test" finished-at="2026-03-03T10:32:59 IST" duration-ms="47974">
+      <class name="testCase.FreshSort">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.FreshSort@41d477ed]" started-at="2026-03-03T10:32:11 IST" name="setup" finished-at="2026-03-03T10:32:39 IST" duration-ms="27787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="jobSearchFres()[pri:0, instance:testCase.FreshSort@41d477ed]" started-at="2026-03-03T10:32:39 IST" name="jobSearchFres" finished-at="2026-03-03T10:32:59 IST" duration-ms="20083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jobSearchFres -->
+      </class> <!-- testCase.FreshSort -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

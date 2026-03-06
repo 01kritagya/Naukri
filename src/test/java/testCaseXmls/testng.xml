@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteShareInterest">
+  <test thread-count="5" name="ShareInterestTest1">
+    <classes>
+      <class name="testCase.TC_ShareInterest"/>
+    </classes>
+  </test> <!-- ShareInterestTest -->
+  <test thread-count="5" name="ShareInterestTest2">
+    <classes>
+      <class name="testCase.TC_ShareInterest"/>
+    </classes>
+  </test> <!-- ShareInterestTest -->
+  <test thread-count="5" name="ShareInterestTest3">
+    <classes>
+      <class name="testCase.TC_ShareInterest"/>
+    </classes>
+  </test> <!-- ShareInterestTest -->
+  <test thread-count="5" name="ShareInterestTest4">
+    <classes>
+      <class name="testCase.TC_ShareInterest"/>
+    </classes>
+  </test> <!-- ShareInterestTest -->
+</suite> <!-- SuiteShareInterest -->

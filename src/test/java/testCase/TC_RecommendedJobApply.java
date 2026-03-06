@@ -1,0 +1,28 @@
+package testCase;
+
+import org.testng.annotations.Test;
+
+import PageObject.ApplyButton;
+import PageObject.RecommendedJobPage;
+import PageObject.homePage;
+
+public class TC_RecommendedJobApply extends TC_BaseClass
+{
+	@Test
+	public void apply() throws InterruptedException 
+	{
+		homePage hp= new homePage(driver);
+		Thread.sleep(5000);
+		hp.JobDropDownIcon();
+		hp.recommendedJob();
+		RecommendedJobPage rjp =new RecommendedJobPage(driver);
+		
+		rjp.ClickOnJobs(50);
+		ApplyButton ab=new ApplyButton(driver);
+		Thread.sleep(3000);
+		 try{
+			 ab.clickApply();
+		 }
+		 catch(Exception e){}	
+	}
+}
