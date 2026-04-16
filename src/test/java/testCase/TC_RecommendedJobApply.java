@@ -17,12 +17,14 @@ public class TC_RecommendedJobApply extends TC_BaseClass
 		hp.recommendedJob();
 		RecommendedJobPage rjp =new RecommendedJobPage(driver);
 		
-		rjp.ClickOnJobs(50);
+		rjp.ClickOnJobs(30);
 		ApplyButton ab=new ApplyButton(driver);
 		Thread.sleep(3000);
 		 try{
+			 
 			 ab.clickApply();
 		 }
 		 catch(Exception e){}	
+		 
 	}
 }

@@ -32,7 +32,8 @@ public class ShareInterest extends BaseClass {
 	}
 
 	public void click_ReseShareInterest() throws InterruptedException {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
+		System.out.println("Number of sahreInterest is present->"+rest.size());
 		for (WebElement x : rest) {
 			wait.until(ExpectedConditions.elementToBeClickable(x)).click();
 

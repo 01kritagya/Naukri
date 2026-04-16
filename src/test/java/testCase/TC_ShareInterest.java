@@ -1,5 +1,4 @@
 	package testCase;
-	
 	import org.openqa.selenium.JavascriptExecutor;
 	import org.testng.annotations.Test;
 	import PageObject.ForDailyupdate;
@@ -11,7 +10,7 @@
 		public void moveToAppare() throws Exception {
 			ForDailyupdate fdu = new ForDailyupdate(driver);
 			ShareInterest si = new ShareInterest(driver);
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			fdu.click3bar();
 			Thread.sleep(3000);
 			fdu.clickViewAll();
@@ -33,12 +32,12 @@
 			System.out.println("after click_FristShareInterest");
 	
 			Thread.sleep(5000);
-			JavascriptExecutor js = (JavascriptExecutor) driver;
-			js.executeScript("window.scrollBy(0,800)", "");
-			Thread.sleep(3000);
+		//	JavascriptExecutor js = (JavascriptExecutor) driver;
+			//js.executeScript("window.scrollBy(0,800)", "");
+			//Thread.sleep(3000);
 	
 			System.out.println(driver.getTitle());
-			Thread.sleep(5000);
+			Thread.sleep(3000);
 			si.click_ReseShareInterest();
 			driver.close();
 		}

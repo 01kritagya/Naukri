@@ -1,5 +1,7 @@
 package PageObject;
 
+import java.sql.Driver;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +15,6 @@ public class ForDailyupdate extends BaseClass
 		super(driver);
 		
 	}
-
 	//click on proile pic 
 	@FindBy(xpath="//div[@class='nI-gNb-drawer__icon']") WebElement profilePic;
 	@FindBy(css="div[class='nI-gNb-de__perf-card'] a[class='nI-gNb-de__perf-card-view']") WebElement viewAll;
