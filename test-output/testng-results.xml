@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-14T17:21:20 IST" name="Default suite" finished-at="2026-04-14T17:24:06 IST" duration-ms="166180">
+  <suite started-at="2026-07-20T17:38:44 IST" name="Default suite" finished-at="2026-07-20T17:45:39 IST" duration-ms="414412">
     <groups>
     </groups>
-    <test started-at="2026-04-14T17:21:20 IST" name="Default test" finished-at="2026-04-14T17:24:06 IST" duration-ms="166180">
+    <test started-at="2026-07-20T17:38:44 IST" name="Default test" finished-at="2026-07-20T17:45:39 IST" duration-ms="414412">
       <class name="testCase.TC_ShareInterest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_ShareInterest@5bf0d49]" started-at="2026-04-14T17:21:20 IST" name="setup" finished-at="2026-04-14T17:21:45 IST" duration-ms="24631" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TC_ShareInterest@5bf0d49]" started-at="2026-07-20T17:38:44 IST" name="setup" finished-at="2026-07-20T17:39:15 IST" duration-ms="31163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="moveToAppare()[pri:0, instance:testCase.TC_ShareInterest@5bf0d49]" started-at="2026-04-14T17:21:45 IST" name="moveToAppare" finished-at="2026-04-14T17:24:06 IST" duration-ms="141296" status="PASS">
+        <test-method signature="moveToAppare()[pri:0, instance:testCase.TC_ShareInterest@5bf0d49]" started-at="2026-07-20T17:39:16 IST" name="moveToAppare" finished-at="2026-07-20T17:45:39 IST" duration-ms="382795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToAppare -->

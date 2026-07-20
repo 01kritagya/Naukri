@@ -16,7 +16,7 @@ public class ForDailyupdate extends BaseClass
 		
 	}
 	//click on proile pic 
-	@FindBy(xpath="//div[@class='nI-gNb-drawer__icon']") WebElement profilePic;
+	@FindBy(xpath="//img[@class='nI-gNb-icon-img']") WebElement profilePic;
 	@FindBy(css="div[class='nI-gNb-de__perf-card'] a[class='nI-gNb-de__perf-card-view']") WebElement viewAll;
 	@FindBy(xpath="//a[normalize-space()='View & Update Profile']") WebElement ViewUpdate;
 	@FindBy(xpath="//span[@class='edit icon']")WebElement editIcon;
