@@ -29,7 +29,7 @@ public class TC_BaseClass
 		LoginPage lp = new LoginPage(driver);
 		lp.openLogin();
 		Thread.sleep(3000);
-		lp.setEmail(p.getProperty("email1"));
+		lp.setEmail(p.getProperty("email"));
 		lp.setPwd(p.getProperty("password"));
 		lp.btn_sumbit();
 		//------------------------------------------
